@@ -67,7 +67,7 @@ var myPlaylist = new jPlayerPlaylist({
     //  { title: "Amen For Women", artist: "Endless Summer", mp3:"images/15.mp3", poster: "images/15.jpg"} 
 //    ];
 
-//æ·»å æ’­æ”¾æ­Œæ›²
+
 
 $("#latest li").find("a.playIcon").click(function() {
     var k=$(this).parent("li").index();
@@ -146,7 +146,7 @@ myPlaylist.play(-1);
 
 //remove
 $("#playlist-remove").click(function() {
-    myPlaylist.remove();		//ï¼ˆ0 1 2 ... -2 -1ï¼‰
+    myPlaylist.remove();		
 });
 
 $("#listRemove").click(function() {
@@ -278,7 +278,7 @@ function move(){
 
 
 
-var fold=true;//æ ‡è¯†
+var fold=true;
 
 
 $(".jp-video").animate({left:0},"slow",function(){
@@ -301,7 +301,7 @@ $("#btnfold").mouseover(function(){
 });
 
 function slideOut(obj){
-    $("#btnfold").attr({"title":"ç‚¹å‡»æ”¶ç¼©"});
+    $("#btnfold").attr({"title":"slideOut"});
     obj.find("span").css({"transform":"rotate(180deg)"});
     obj.find("span").css({"MozTransform":"rotate(180deg) translateX(2px)"});
     obj.find("span").css({"WebkitTransform":"rotate(180deg)"});
@@ -309,7 +309,7 @@ function slideOut(obj){
 };
 //Slidein
 function slideIn(obj){
-    $("#btnfold").attr({"title":"ç‚¹å‡»å±•å¼€"});	
+    $("#btnfold").attr({"title":"slideIn"});	
     obj.find("span").css({"transform":"rotate(0deg)"});
     obj.find("span").css({"MozTransform":"rotate(0deg) translateX(-2px)"});
     obj.find("span").css({"WebkitTransform":"rotate(0deg)"});
