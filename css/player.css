@@ -1,4 +1,4 @@
-/*å·¦ä¾§éŸ³ä¹æ’­æ”¾å™¨CSS*/
+/*Ruanyu Jian¨CSS*/
 
 .jp-audio :focus, .jp-audio-stream :focus, .jp-video :focus {
     outline: 0
@@ -25,7 +25,7 @@
 }
 
 .jp-controls-holder {
-    /*æ§ä»¶åŒº*/
+    
     width: 440px;
     margin: 0 auto;
     clear: both;
@@ -129,7 +129,7 @@
     height: 4px;
 }
 
-/*è¿›åº¦æ¡*/
+
 
 .jp-seek-bar {
     background: url(../images/player.png) 0 -202px repeat-x;
@@ -256,7 +256,7 @@
     cursor: pointer;
 }
 
-/*æ’­æ”¾æ—¶é—´*/
+
 
 .jp-video .jp-current-time {
     font-size: 10px;
@@ -294,7 +294,7 @@
     font-weight: 700;
 }
 
-/*æ’­æ”¾åˆ—è¡¨*/
+
 
 .jp-playlist-box {
     width: 100%;
@@ -361,9 +361,6 @@ span.jp-artist {
     font-size: 12px;
 }
 
-/*æ­Œæ‰‹å*/
-
-/*å¾ªç¯ă€éæœº*/
 
 .jp-video .jp-toggles {
     width: 100px;
@@ -416,7 +413,7 @@ span.jp-artist {
     background: url(../images/player.png) -90px -270px no-repeat;
 }
 
-/*æ»å¨æ¡*/
+
 
 html, body, header, nav, footer, div, ul, ol, li, p, form, input, a, span, em, i, strong, b, font, img {
     margin: 0;
@@ -447,7 +444,7 @@ html, body, header, nav, footer, div, ul, ol, li, p, form, input, a, span, em, i
     cursor: pointer;
 }
 
-/*æ’­æ”¾å™¨æ˜¾ç¤º éè—*/
+
 
 .jp-video .folded_bt {
     width: 20px;
@@ -474,7 +471,7 @@ html, body, header, nav, footer, div, ul, ol, li, p, form, input, a, span, em, i
     background-position: -116px -6px;
 }
 
-/*åˆ—è¡¨æ­Œæ›² æ¸…ç©º*/
+
 
 #listRemove {
     width: 20px;
@@ -491,7 +488,7 @@ html, body, header, nav, footer, div, ul, ol, li, p, form, input, a, span, em, i
     background-position: -119px -53px;
 }
 
-/*æ­Œæ›²åˆ—è¡¨ æ˜¾ç¤º éè—*/
+
 
 #listClose {
     width: 30px;
